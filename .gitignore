@@ -1,3 +1,109 @@
+# =====================
+# macOS system files
+# =====================
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+._*
+
+# =====================
+# R / RStudio / Positron
+# =====================
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.Rapp.history
+
+# R Markdown / Quarto intermediates
+*_cache/
+cache/
+*_files/
+*.utf8.md
+*.knit.md
+
+# Quarto freeze/metadata
+.quarto/
+
+# =====================
+# Compiled / rendered outputs
+# (ignored everywhere EXCEPT Homework/week* subfolders)
+# =====================
+*.html
+*.pdf
+*.docx
+*.pptx
+
+# Allow final reports in Homework/weekN
+!Homework/Week*/**/*.html
+!Homework/Week*/**/*.pdf
+!Homework/Week*/**/*.docx
+!Homework/Week*/**/*.pptx
+
+# =====================
+# Python / Jupyter
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+*.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+*.prof
+coverage/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# =====================
+# IDE / Editor settings
+# =====================
+# RStudio handled above
+# Positron & VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+out/
+
+# =====================
+# Data and large artifacts
+# =====================
+# Ignore all "data" subfolders anywhere in the tree
+**/data/**
+# Ignore raw datasets (track only small, clean samples if needed)
+*.csv
+*.tsv
+*.rds
+*.rda
+*.feather
+*.parquet
+*.h5
+*.zip
+*.tar
+*.gz
+*.bz2
+
+# =====================
+# Miscellaneous
+# =====================
 .idea
 data/lahman/raw
 data/lahman/wrangled
@@ -10,3 +116,17 @@ test_data
 tmp*
 __pycache__
 *checkpoint.ipynb
+*.swp
+*.swo
+*.tmp
+
+# =====================
+# Exceptions for source
+# =====================
+!README.md
+!*.qmd
+!*.Rmd
+!*.ipynb
+!*.py
+!*.R
+

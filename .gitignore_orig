@@ -1,0 +1,12 @@
+.idea
+data/lahman/raw
+data/lahman/wrangled
+data/retrosheet/raw
+data/retrosheet/parsed
+data/retrosheet/collected
+data/retrosheet/wrangled
+*.log
+test_data
+tmp*
+__pycache__
+*checkpoint.ipynb
